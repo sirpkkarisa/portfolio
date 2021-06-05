@@ -1,0 +1,77 @@
+.home-page {
+	background-color: #5C5BE0;
+}
+.hero-section {
+	width: 63%;
+}
+.profile-div {
+	display: flex;
+	justify-content: flex-end;
+}
+.profile {
+	width: 50px;
+	border-radius: 50%;
+}
+.logo{
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #312FC2;
+	text-align: center;
+	padding: 30px;
+}
+nav {
+	height: 50px;
+	max-height: 100px;
+}
+nav ul {
+	display: flex;
+	height: 100%;
+	width: 70%;
+	margin-top: -50px;
+	margin-left: 30%;
+	list-style: none;
+	background-color: #312FC2;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+nav li {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+nav li:hover {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
+	background-color: #E5E5E5;
+}
+nav ul a {
+	text-decoration: none;
+	color: #E5E5E5;
+	font-weight: bolder;
+	width: 100%;
+	height: 100%;
+	padding: 13px;
+}
+nav ul a:hover {
+	text-decoration: none;
+	color: #1C1B8E;
+}
+.active-page {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
+	background-color: #1C1B8E;
+}
+.carousel {
+	height: 50%;
+}
+#target-display {
+	height: 79vh;
+}
+.my-carousel-item {
+	height: 50%;
+}
