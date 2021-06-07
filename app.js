@@ -16,6 +16,12 @@ app.use('/', express.static(path.join(__dirname,'client')));
 app.use('/js', express.static(path.resolve('client/src/js/')));
 app.use('/css', express.static(path.resolve('client/css/')));
 app.use('/resources', express.static(path.resolve('client/src/resources/')));
+app.use('/posts', (req, res)=>{
+	return res.json({
+		status: 'success',
+		message: 'See posts'
+	})
+});
 
 app.use('/admin/:username',(req, res)=>{
 	const { username } = req.params;
